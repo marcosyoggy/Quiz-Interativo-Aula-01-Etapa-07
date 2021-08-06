@@ -1,0 +1,96 @@
+body {
+
+  background: rgb(79, 188, 231);
+  
+}
+
+/* --------------------- Pop-Up --------------------------------- */
+
+.popup_Message {
+  display: none;
+  background: rgba(0, 0, 0, 0.4);
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 300px;
+  margin: 20% auto;
+}
+
+.popup_content {
+  text-align: center;
+  width: 100%;
+  max-width: 550px;
+  margin: 2% auto;
+  padding: 5px;
+  background: white;
+  position: relative;
+  border-radius: 1%;
+}
+
+.popup_close {
+  background: rgb(241, 160, 160);
+  position: absolute;
+  bottom:  0;
+  right: 0;
+  cursor: pointer;
+}
+
+/* ------------------------- index.html --------------------------- */
+
+h2 { /* _sub título */
+  text-decoration: underline;
+}
+
+.user_action { /* _Inicio 'form' */
+  display: block;
+  border: 2px solid white;
+  text-align: center;
+  width: 100%;
+    max-width: 850px;
+    margin: 10px auto;
+}
+
+
+  section { /* _Bloco pergunta + input_radio */
+    display: flex;
+    border: 2px solid green;
+    padding: 10px;
+    margin: 5px 0 ;
+  }
+
+  article { /* _Descrição da Pergunta */
+    display: inline-flex;
+    margin-right: 50px;
+  }
+    
+    
+
+  input {
+    flex: 2;
+    cursor: pointer;
+  }
+
+.send_Form { /* _Botão enviar */
+   display: inline-flex;
+   align-self: center;
+   cursor: pointer;
+  }
+
+  .screen_user {/* _h1 */
+    border: 2px solid red;
+    background: rgb(238, 147, 114);
+    padding: 50px;
+    margin: 0 1px;
+  }
+
+ 
+
+
+
+
+
+
+ 
+
+
+
