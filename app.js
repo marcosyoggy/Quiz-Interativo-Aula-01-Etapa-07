@@ -37,7 +37,6 @@ const submit_Form_User = event => {
  
     popup_Ref.setAttribute('style','display: block')
     if(count_Items <= 1){
-        console.log(count_Items)
     count_Items_Ref.textContent = `Voce acertou: ${count_Items} questão.`
     final_Score_Ref.textContent = `O valor total é: ${count_Score} pontos.`
     }
