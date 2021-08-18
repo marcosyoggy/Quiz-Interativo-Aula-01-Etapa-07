@@ -35,10 +35,14 @@ const submit_Form_User = event => {
 
     input_Names.forEach(sum_Score_Answers)
  
-    // popup_Ref.style.display = 'block'
     popup_Ref.setAttribute('style','display: block')
-    count_Items_Ref.textContent = `Voce acertou: ${count_Items} questões.`
+    if(count_Items <= 1){
+        console.log(count_Items)
+    count_Items_Ref.textContent = `Voce acertou: ${count_Items} questão.`
     final_Score_Ref.textContent = `O valor total é: ${count_Score} pontos.`
+    }
+    else{count_Items_Ref.textContent = `Voce acertou: ${count_Items} questões.`
+    final_Score_Ref.textContent = `O valor total é: ${count_Score} pontos.`}
 }
 
 
